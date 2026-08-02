@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "HomeValue DIY",
+    "slug": "homevalue-diy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "homevaluediy",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.homevaluediy.app"
+    },
+    "android": {
+      "package": "com.homevaluediy.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
